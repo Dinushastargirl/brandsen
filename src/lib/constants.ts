@@ -1,5 +1,5 @@
-export const BRAND_NAME = "Brandsen Digital";
-export const LOGO_URL = "https://ibb.co/b5KFzxRS";
+export const BRAND_NAME = "Brandscend Digital";
+export const LOGO_URL = "https://i.ibb.co/b5KFzxRS/brandsen-logo.png";
 
 export const NAV_LINKS = [
   { name: "Home", href: "/" },

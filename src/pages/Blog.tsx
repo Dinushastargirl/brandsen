@@ -44,7 +44,7 @@ export function Blog() {
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-white/10" />
                     <div>
-                      <p className="font-bold">Brandsen Editorial</p>
+                      <p className="font-bold">Brandscend Editorial</p>
                       <p className="text-xs text-white/40">Technical Content Strategist</p>
                     </div>
                   </div>

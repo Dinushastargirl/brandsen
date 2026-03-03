@@ -30,7 +30,7 @@ export function Home() {
                 Building <span className="text-blue-gradient">Performance</span> Driven Ecosystems.
               </h1>
               <p className="text-xl text-white/60 leading-relaxed mb-10 max-w-2xl">
-                We bridge the gap between technology and business growth. Brandsen is a global digital technology agency specializing in high-scale ecosystems that convert.
+                We bridge the gap between technology and business growth. Brandscend is a global digital technology agency specializing in high-scale ecosystems that convert.
               </p>
               <div className="flex flex-col sm:row items-center gap-6">
                 <button className="w-full sm:w-auto bg-white text-black px-8 py-4 rounded-full font-bold flex items-center justify-center group hover:bg-brand-blue hover:text-white transition-all">
@@ -145,7 +145,7 @@ export function Home() {
             <div className="absolute top-0 left-0 w-full h-full bg-brand-blue/10 blur-[100px] -z-10" />
             <h2 className="text-4xl md:text-7xl font-bold mb-8">Ready to engineer your <span className="text-blue-gradient">growth</span>?</h2>
             <p className="text-xl text-white/60 mb-12 max-w-2xl mx-auto">
-              Join 400+ brands that have scaled their digital presence with Brandsen.
+              Join 400+ brands that have scaled their digital presence with Brandscend.
             </p>
             <button className="bg-white text-black px-12 py-5 rounded-full font-bold text-lg hover:bg-brand-blue hover:text-white transition-all">
               Get Started Now

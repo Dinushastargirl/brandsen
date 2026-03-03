@@ -68,7 +68,7 @@ export function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold mb-1">Email Us</h4>
-                      <p className="text-white/50">hello@brandsen.com</p>
+                      <p className="text-white/50">hello@brandscend.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-6">
