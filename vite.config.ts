@@ -11,12 +11,10 @@ export default defineConfig(({mode}) => {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
       'process.env.NODE_ENV': JSON.stringify(mode),
       'process.browser': true,
-      'global': 'globalThis',
     },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
-        'node-fetch': 'fetch-blob', // Stubbing out node-fetch if it's being pulled in
       },
     },
     server: {
