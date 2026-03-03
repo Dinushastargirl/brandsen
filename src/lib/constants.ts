@@ -1,5 +1,5 @@
 export const BRAND_NAME = "BRANDSEN";
-export const LOGO_URL = "https://i.ibb.co/b5KFzxRS/brandsen-logo.png"; // Fixed the URL from the user request which was slightly broken
+export const LOGO_URL = "https://ibb.co/b5KFzxRS";
 
 export const NAV_LINKS = [
   { name: "Home", href: "/" },
