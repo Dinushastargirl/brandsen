@@ -16,6 +16,7 @@ export default defineConfig(({mode}) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
+        'node-fetch': 'fetch-blob', // Stubbing out node-fetch if it's being pulled in
       },
     },
     server: {

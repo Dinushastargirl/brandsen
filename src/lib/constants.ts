@@ -1,4 +1,4 @@
-export const BRAND_NAME = "BRANDSEN";
+export const BRAND_NAME = "Brandsen Digital";
 export const LOGO_URL = "https://ibb.co/b5KFzxRS";
 
 export const NAV_LINKS = [

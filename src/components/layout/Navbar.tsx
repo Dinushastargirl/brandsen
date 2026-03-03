@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X, ArrowRight } from "lucide-react";
 import { cn } from "@/src/lib/utils";
-import { NAV_LINKS, LOGO_URL } from "@/src/lib/constants";
+import { NAV_LINKS, LOGO_URL, BRAND_NAME } from "@/src/lib/constants";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -95,7 +95,7 @@ export function Navbar() {
         <Link to="/" className="flex items-center">
           <img 
             src={LOGO_URL} 
-            alt="Brandsen" 
+            alt={BRAND_NAME} 
             className="h-8 w-auto invert brightness-0" 
             referrerPolicy="no-referrer"
             onError={(e) => {
@@ -103,7 +103,7 @@ export function Navbar() {
               e.currentTarget.nextElementSibling?.classList.remove('hidden');
             }}
           />
-          <span className="hidden text-2xl font-bold tracking-tighter">BRANDSEN</span>
+          <span className="hidden text-2xl font-bold tracking-tighter">{BRAND_NAME}</span>
         </Link>
 
         {/* Mobile Toggle */}
